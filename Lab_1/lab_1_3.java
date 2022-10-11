@@ -7,7 +7,7 @@ class lab_3
 {
     public static void main(String[] args) 
     {
-        Scanner In = new Scanner (System.in);
+        Scanner In = new Scanner (System.in,"Cp866");
 
         System.out.print( "Введите название текущего дня недели: ");
         String дня = In.nextLine();

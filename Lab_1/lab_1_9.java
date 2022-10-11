@@ -8,7 +8,7 @@ class lab_9
 {
     public static void main(String[] args) 
     {
-        Scanner In = new Scanner (System.in);
+        Scanner In = new Scanner (System.in,"Cp866");
 
         System.out.println( "Введите число");
         int a = In.nextInt();

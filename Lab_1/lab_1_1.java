@@ -4,7 +4,7 @@ class lab_1
 {
     public static void main(String[] args) 
     {
-        Scanner In = new Scanner (System.in);
+        Scanner In = new Scanner (System.in,"Cp866");
 
         System.out.print( "Введите фамилию :");
         String Фамилия = In.nextLine();

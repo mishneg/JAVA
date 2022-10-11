@@ -7,7 +7,7 @@
 */
 import java.util.Scanner;
 
-class lab2_1
+class lab3_1
 {
     public static void main(String[] args) 
     {
@@ -42,6 +42,8 @@ class lab2_1
         break;
         default:
         System.out.print("Некорректное значение ");
+        In.close();
+        return;
         }
 
         System.out.printf("Число %d %s", число, ответ);
